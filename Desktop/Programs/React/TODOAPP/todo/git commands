@@ -1,0 +1,18 @@
+# some git commands
+
+>ls -la : which will show you all your files;
+>git status: which shows the status of your repo;
+>git clone: which clones a repo from github;
+>git commit -m "added a directory" -m "directory containing my first react app": which commits a repo;
+>git push: which pushes a directory to github repository;
+>ssh-keygen -t rsa -b 4096 -C "email": which generates a private and public key;
+>ls -la| grep testkey: shows generated keys;
+>git add: which makes your file or directory checked;
+>git init: initializes empty git directory;
+>git remote add origin git@github.com:NBru-cee/Demo-Repo.git OR
+    git remote add Origin https://github.com/NBru-cee/Demo-Repo.git: adds your app to a remote repo;
+>git remote -v: shows directories associated with your directory;
+>git push -u origin master: pushes the directory to github;
+>git config --global user.name "Bruce": configure your username;
+>git config --global user.email "nbruce420@gmail.com": configures your email;
+> git branch -M main: changes branch to main from master;
