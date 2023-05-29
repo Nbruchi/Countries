@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "product"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "image": {
+      "allowedTypes": ["images", "files", "videos", "audios"],
+      "type": "media",
+      "multiple": true
+    },
+    "delivers": {
+      "type": "decimal"
+    },
+    "purchases": {
+      "type": "decimal"
+    },
+    "desctiption": {
+      "type": "richtext"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Bread",
+        "Burger",
+        "Fries",
+        "Pizza",
+        "Bruchette",
+        "Sandwich",
+        "Chicken",
+        "Dish",
+        "Cake",
+        "Wine",
+        "Softs",
+        "Tacos"
+      ]
+    }
+  }
+}
